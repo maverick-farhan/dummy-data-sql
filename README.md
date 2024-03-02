@@ -20,7 +20,9 @@ name VARCHAR(20) NOT NULL,
 email VARCHAR(50) NOT NULL,
 phone VARCHAR(12) NOT NULL UNIQUE,
 address VARCHAR(100) NOT NULL
-);
+)
+COLLATE='utf8_unicode_ci'
+ENGINE=InnoDB;
 ```
 ---
 
